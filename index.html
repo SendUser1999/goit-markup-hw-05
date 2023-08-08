@@ -342,14 +342,12 @@
                 <p class="subscribe-text">Subscribe</p>
                 <form class="subscribe-form">
                     <label aria-label="footer subscribe email input">
-                        <div class="input-container">
                             <input type="email" name="footer-mail" class="footer-input" placeholder="E-mail"/>   
                             <button type="submit" class="footer-input-bottom">Subscribe
                                <svg class="icons-subscribe" width="24" height="24">
                                    <use href="./images/icons.svg#icon-subscribe"></use>
                                </svg>
                            </button> 
-                        </div>
                     </label>
                 </form>
             </div>
@@ -365,7 +363,7 @@
             <p class="modal-title">Leave your contacts and we will call you back</p>
             <form class="modal-form">
                 <div class="modal-field">
-                    <label for="user-name"class="modal-lebal">Name</label>
+                    <label for="user-name" name="user-name" class="modal-lebal">Name</label>
                     <div class="modal-input-box">
                         <input type="text" class="modal-input" name="name" required id="user-name">
                         <svg class="modal-icon" width="18" height="24">
@@ -393,12 +391,12 @@
                 </div>
                 <div class="modal-field">
                     <label for="user-comment" class="modal-lebal">Comment</label>
-                    <textarea name="comment" id="comment" class="modal-comment" placeholder="Text input"></textarea>
+                    <textarea name="user-comment" id="user-comment" class="modal-comment" placeholder="Text input"></textarea>
                 </div>
                 <div class="modal-field">
-                    <input type="checkbox" id="policy" name="policy" value="true" class="modal-policy visually-hidden">
+                    <input type="checkbox" id="user-policy" name="user-policy" value="true" class="modal-policy visually-hidden">
                     <label for="policy" class="modal-policy-text">
-                        <span>
+                        <span class="modal-user-policy">
                             <svg class="check-icon" width="10" height="8">
                                 <use href="./images/icons.svg#icon-check"></use>
                             </svg>                            
