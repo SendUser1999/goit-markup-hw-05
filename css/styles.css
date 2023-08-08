@@ -781,6 +781,7 @@ ul {
     font-size: 16px;
     border-radius: 4px;
     border: none;
+    cursor: pointer;
 }
 .icons-subscribe {
     fill: var(--main-color);
