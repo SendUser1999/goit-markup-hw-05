@@ -732,7 +732,6 @@ ul {
     letter-spacing: 0.04em; 
     display: flex;
     align-items: center;
-
 }
 
 .modal-policy-check {
@@ -754,9 +753,6 @@ ul {
     display: inline-flex;
 }
 
-.modal-user-policy {
-    display: inline-flex; 
-}
 
 .modal-policy:checked + .modal-policy-text span {
     background-color: #404bbf;
